@@ -1,6 +1,6 @@
 image:
   repository: nginx
-  tag: <+artifact.tag>
+  tag: this-tag-does-not-exist
 replicaCount: 1
 service:
   type: NodePort
